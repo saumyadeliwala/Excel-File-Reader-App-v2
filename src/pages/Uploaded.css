@@ -1,0 +1,15 @@
+.uploadclick{
+    cursor: pointer;
+    border: 0;
+    padding: 16px 20px;
+    background-color: #605bff;
+    align-self: stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0.4;
+}

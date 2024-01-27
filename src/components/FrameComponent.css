@@ -1,0 +1,449 @@
+.sign-in-to,
+.sign-in1 {
+  position: relative;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.sign-in1 {
+  margin: 0;
+  width: 143.8px;
+  height: 48.3px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Montserrat;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sign-in-to {
+  align-self: stretch;
+  font-size: 16px;
+  font-family: Lato;
+}
+.sign-in-parent {
+  width: 196px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 6px;
+}
+.button1,
+.white1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.button1 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.white1 {
+  margin: 0 !important;
+  top: -1px;
+  right: 0.2px;
+  bottom: 2.1px;
+  left: 0.2px;
+  z-index: 1;
+}
+.google-icon-1 {
+  height: 15.4px;
+  width: 15.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.sign-in-with {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #858585;
+  text-align: center;
+  z-index: 2;
+}
+.white-button-google {
+  cursor: pointer;
+  border: 0;
+  padding: 9px 21px 7px 20px;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+  min-width: 129px;
+}
+.button2,
+.white2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.button2 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.white2 {
+  margin: 0 !important;
+  top: -1px;
+  right: 0.2px;
+  bottom: 1.1px;
+  left: 0.2px;
+  z-index: 1;
+}
+.apple-1-icon {
+  height: 15.4px;
+  width: 12.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.sign-in-with1 {
+  width: calc(100% - 66.6px);
+  border: 0;
+  outline: 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  background-color: transparent;
+  height: 16.5px;
+  flex: 1;
+  position: relative;
+  color: #858585;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 72px;
+  z-index: 2;
+}
+.white-button-google-parent,
+.white-button-google1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.white-button-google1 {
+  flex: 0.9172;
+  padding: 8px 28px 7px 26px;
+  position: relative;
+  gap: 11px;
+  min-width: 129px;
+  min-height: 33px;
+}
+.white-button-google-parent {
+  align-self: stretch;
+  padding: 0 1px 0 0;
+  gap: 28px;
+  min-height: 38px;
+}
+.card,
+.card1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.card1 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.card {
+  margin: 0 !important;
+  top: -0.1px;
+  right: 0.2px;
+  bottom: 5.1px;
+  left: 0.2px;
+  z-index: 1;
+}
+.email-address {
+  position: relative;
+  font-size: 16px;
+  font-family: Lato;
+  color: #000;
+  text-align: left;
+  z-index: 2;
+}
+.input-field1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -1.03%;
+  right: -0.03%;
+  bottom: 1.03%;
+  left: 0.03%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.input-field {
+  height: 43.9px;
+  width: 356.8px;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+.johndoegmailcom {
+  width: 141px;
+  border: 0;
+  outline: 0;
+  font-family: Lato;
+  font-size: 16px;
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 3;
+  margin-left: -340px;
+}
+.email-address-parent,
+.input-field-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.email-address-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.password {
+  position: relative;
+  font-size: 16px;
+  font-family: Lato;
+  color: #000;
+  text-align: left;
+  z-index: 2;
+}
+.input {
+  height: 43.9px;
+  width: 356.8px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  display: none;
+  max-width: 100%;
+}
+.input1,
+.line-separator {
+  /* position: relative; */
+  /* z-index: 3; */
+}
+.input1 {
+  width: 75px;
+  border: 0;
+  outline: 0;
+  font-family: Lato;
+  font-size: 16px;
+  background-color: transparent;
+  height: 20px;
+  color: #000;
+  text-align: left;
+}
+.johndoegmailcom::placeholder {
+  color: #000000;
+}
+.input1::placeholder {
+  color: #000000;
+}
+
+.line-separator {
+  height: 20.8px;
+  width: 1px;
+  border-right: 1px solid #000000;
+  box-sizing: border-box;
+}
+.email-address-text,
+.password-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.email-address-text {
+  border-radius: 10px;
+  background-color: #eaeaea;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 11px 16px 12px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.password-parent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.forgot-password {
+  width: 136.1px;
+  position: relative;
+  font-size: 16px;
+  font-family: Lato;
+  color: #346bd4;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.forgot-password-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+}
+.button-primary1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -0.11%;
+  right: -0.03%;
+  bottom: 0.11%;
+  left: 0.03%;
+  border-radius: 10px;
+  background-color: #605bff;
+  cursor: pointer;
+}
+.button-primary {
+  height: 43.9px;
+  width: 356.8px;
+  position: absolute;
+  max-width: 100%;
+  z-index: 2;
+}
+.sign-in2 {
+  height: 100%;
+  width: 100%; /* Ensure the text takes up the full space of the button */
+  position: absolute;
+  top: 50%; /* Position the text vertically at the center */
+  left: 50%; /* Position the text horizontally at the center */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+}
+
+.button-primary-parent,
+.card-component {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.button-primary-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+}
+.card-component {
+  flex-direction: column;
+  padding: 33px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 23px;
+}
+.dont-have-an {
+  color: #858585;
+}
+.register-here {
+  color: #346bd4;
+}
+.dont-have-an-container {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  font-family: Lato;
+  text-align: center;
+  z-index: 1;
+}
+.dont-have-an-account-registe-wrapper,
+.frame-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dont-have-an-account-registe-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 68px;
+}
+.frame-group {
+  margin: 0;
+  width: 423px;
+  flex-direction: column;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 22px;
+  min-width: 423px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .frame-group {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sign-in1 {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in1 {
+    font-size: 22px;
+  }
+  .white-button-google1 {
+    flex: 1;
+  }
+  .white-button-google-parent {
+    flex-wrap: wrap;
+  }
+  .card-component {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+  .dont-have-an-account-registe-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    min-width: 100%;
+  }
+}
